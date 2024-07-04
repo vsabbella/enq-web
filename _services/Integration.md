@@ -1,12 +1,10 @@
 ---
-title: "Mergers"
-date: 2019-02-28T15:15:34+10:00
-weight: 3
+title: "Integrations"
+date: 2019-04-18T12:33:46+10:00
+weight: 6
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Our team handles integration of your org with third party ISVs for QTC, Contracts, Devops, Email Services, Marketo. Use our team to develop integrations using Mulesoft, Workato, Informatica
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 

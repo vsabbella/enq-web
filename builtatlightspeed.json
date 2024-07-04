@@ -1,7 +1,7 @@
 {
     "originRepo": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "title": "Jekyll Serif",
-    "description": "Serif is a multi page business theme for Jekyll.",
+    "title": "Enqsys",
+    "description": "Enqsys offers services to implement, extend and support salesforce technology across your business.",
     "demoUrl": "https://jekyll-advance.netlify.app",
     "categories": {
       "ssg": ["jekyll"],

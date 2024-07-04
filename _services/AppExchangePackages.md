@@ -1,13 +1,10 @@
 ---
-title: "Business Advisory"
-date: 2018-12-28T15:14:39+10:00
-weight: 4
+title: "App Exchange Package"
+date: 2019-03-28T15:14:54+10:00
+weight: 5
 ---
 
-Business advisory is the final tier of the accounting pyramid.
-<!--more-->
-
-Business advisory involves reporting on performance as well as advising on strategic plans, risk assessment, and succession plans.
+ISVs can work with us to package  and distribute your solution in Salesforce App Exchagne platform. Our team uses Apex, LWC, Visualforce and Integrate with thrid party APIs to help you offer your solution across Salesforce customers. 
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 

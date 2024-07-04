@@ -1,13 +1,13 @@
 ---
-title: "Business Sales"
-date: 2019-01-28T15:15:26+10:00
-weight: 2
+title: "Service Cloud"
+date: 2018-12-28T15:14:39+10:00
+weight: 4
 ---
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet
+We offer setup and implemention case assigment rules, email templates, knowledge base, customer portals for gaining maximum support rep efficiency. 
+<!--more-->
+
+Business advisory involves reporting on performance as well as advising on strategic plans, risk assessment, and succession plans.
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
