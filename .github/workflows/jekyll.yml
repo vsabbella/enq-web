@@ -33,14 +33,32 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install Ruby in tool cache for self-hosted runner
-        if: contains(runner.labels, 'self-hosted')
+      - name: Install Ruby in tool cache for self-hosted Linux runner
+        if: contains(runner.labels, 'self-hosted') && runner.os == 'Linux'
         run: |
+          TOOL_CACHE="$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
+          LOCKDIR="/tmp/ruby-toolcache-3.1.4.lock"
+
+          if [ -f "$TOOL_CACHE.complete" ]; then
+            echo "Ruby 3.1.4 already installed in tool cache."
+            exit 0
+          fi
+
+          echo "Acquiring install lock..."
+          while ! mkdir "$LOCKDIR" 2>/dev/null; do
+            sleep 5
+            if [ -f "$TOOL_CACHE.complete" ]; then
+              echo "Ruby 3.1.4 installation completed by another runner."
+              exit 0
+            fi
+          done
+          trap 'rm -rf "$LOCKDIR"' EXIT
+
           sudo apt-get update
           sudo apt-get install -y ruby-build
-          mkdir -p "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
-          ruby-build 3.1.4 "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
-          touch "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64.complete"
+          mkdir -p "$TOOL_CACHE"
+          ruby-build 3.1.4 "$TOOL_CACHE"
+          touch "$TOOL_CACHE.complete"
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
