@@ -33,10 +33,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Install Ruby in tool cache for self-hosted runner
+        if: contains(runner.labels, 'self-hosted')
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ruby-build
+          mkdir -p "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
+          ruby-build 3.1.4 "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
+          touch "$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64.complete"
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          ruby-version: '3.1.4'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
