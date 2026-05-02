@@ -4,12 +4,26 @@ date: 2018-12-28T15:14:39+10:00
 weight: 4
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Flex', sans-serif !important;
+}
+body.page-service {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/sales-dashboard-examples.webp') !important;
+}
+.content img {
+  float: left;
+  margin-right: 20px;
+}
+</style>
+
+![Service Cloud Implementation](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+
 We offer setup and implemention case assigment rules, email templates, knowledge base, customer portals for gaining maximum support rep efficiency. 
 <!--more-->
 
 Business advisory involves reporting on performance as well as advising on strategic plans, risk assessment, and succession plans.
-
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
 # Objectives
 
