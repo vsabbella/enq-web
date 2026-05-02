@@ -36,7 +36,7 @@ jobs:
       - name: Install Ruby in tool cache for self-hosted Linux runner
         if: contains(runner.labels, 'self-hosted') && runner.os == 'Linux'
         run: |
-          TOOL_CACHE="$RUNNER_TOOL_CACHE/Ruby/3.1.4/x64"
+          TOOL_CACHE="/opt/hostedtoolcache/Ruby/3.1.4/x64"
           LOCKDIR="/tmp/ruby-toolcache-3.1.4.lock"
 
           if [ -f "$TOOL_CACHE.complete" ]; then
@@ -56,9 +56,9 @@ jobs:
 
           sudo apt-get update
           sudo apt-get install -y ruby-build
-          mkdir -p "$TOOL_CACHE"
+          sudo mkdir -p "$TOOL_CACHE"
           ruby-build 3.1.4 "$TOOL_CACHE"
-          touch "$TOOL_CACHE.complete"
+          sudo touch "$TOOL_CACHE.complete"
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
