@@ -18,7 +18,7 @@ body.page-service {
 }
 </style>
 
-![CLM Implementation](/images/Appy.webp)
+![CLM Implementation](/images/Cloudy.webp)
 
 Setup contracts using our partner technology to generate documents from templates, manage negotiations, and provision e-signature workflows for faster deal closure.
 
