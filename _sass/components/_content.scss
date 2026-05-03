@@ -14,6 +14,12 @@
   em {
     font-style: italic;
   }
+  mark {
+    background-color: #ffeaa7; /* Soft yellow highlight */
+    color: $black;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+  }
   p {
     font-family: $font-family-base;
     line-height: 1.56;
