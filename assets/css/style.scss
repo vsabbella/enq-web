@@ -169,6 +169,13 @@ body.page-service {
   background-attachment: fixed;
 }
 
+// Background image for the services section
+.strip-services {
+  background-image: url('/hero-bg-sessions_rf_1770298272919001dJzO.png');
+  background-size: cover;
+  background-position: center;
+}
+
 // Make the footer title visible
 .footer-title {
   display: block !important;
@@ -190,7 +197,7 @@ body.page-service {
 
 // Card styling for service summaries (matches screenshot)
 .service-summary {
-  background-color: $white;
+  background-color: #c8508e1d;
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   padding: 30px 24px;
@@ -228,7 +235,7 @@ body.page-service {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: $white;
+  background-color: #34f5c529;
   border-radius: 8px;
   padding: 20px 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
