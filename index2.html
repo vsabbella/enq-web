@@ -137,81 +137,20 @@
     <div class="row justify-content-start">
       
       
+      {% assign services = site.services | sort: 'weight' %}
+      {% for service in services %}
       <div class="col-12 col-md-4 mb-4">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="/services/salescloud/">Sales Cloud</a>
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
-            <p>
-
-</p>
+            {% assign content_parts = service.content | split: '</style>' %}
+            <p>{{ content_parts.last | strip_html | truncatewords: 20 }}</p>
           </div>
         </div>
       </div>
-      
-      <div class="col-12 col-md-4 mb-4">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="/services/clm/">CLM Implemention</a>
-            </h2>
-            <p>
-
-</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-4 mb-4">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="/services/CPQ%20Implemetation/">CPQ Implementation</a>
-            </h2>
-            <p>
-
-</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-4 mb-4">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="/services/servicecloud/">Service Cloud</a>
-            </h2>
-            <p>
-
-</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-4 mb-4">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="/services/AppExchangePackages/">App Exchange Package</a>
-            </h2>
-            <p>
-
-</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-4 mb-4">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="/services/Integration/">Integrations</a>
-            </h2>
-            <p>Our team handles integration of your org with third party ISVs for QTC, Contracts, Devops, Email ...</p>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
       
     </div>
     <div class="row justify-content-center">
