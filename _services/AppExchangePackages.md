@@ -1,5 +1,6 @@
 ---
-title: "App Exchange Package"
+title: "App Exchange Packages
+"
 date: 2019-03-28T15:14:54+10:00
 weight: 5
 ---
@@ -18,6 +19,19 @@ body.page-service {
 }
 </style>
 
-![AppExchange Package](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![AppExchange Package](/images/Astro.png)
 
-ISVs can work with us to package  and distribute your solution in Salesforce App Exchagne platform. Our team uses Apex, LWC, Visualforce and Integrate with thrid party APIs to help you offer your solution across Salesforce customers. 
+
+At Enqsys, we partner with Independent Software Vendors (ISVs) to seamlessly package, publish, and distribute your innovative solutions on the Salesforce AppExchange platform. Navigating the AppExchange security review and packaging process can be complex, but our experienced team is here to guide you every step of the way.
+
+### Comprehensive AppExchange Development
+
+We leverage the full spectrum of Salesforce development technologies to build robust, scalable, and user-friendly applications tailored to your business goals. Our technical expertise includes:
+
+*   **Apex:** Developing secure, scalable backend business logic and transaction controls.
+*   **Lightning Web Components (LWC):** Crafting modern, highly performant, and responsive user interfaces.
+*   **Visualforce:** Delivering highly customized user experiences for specialized legacy use cases.
+*   **Third-Party API Integrations:** Securely connecting your Salesforce application with external systems, databases, and enterprise services.
+
+Whether you are building a new application from scratch or adapting an existing product for the Salesforce ecosystem, we help you deliver a high-quality solution that accelerates your time-to-market and expands your reach to Salesforce customers globally.
+
