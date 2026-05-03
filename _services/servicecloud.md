@@ -18,7 +18,7 @@ body.page-service {
 }
 </style>
 
-![Service Cloud Implementation](/images/Codey.png)
+![Service Cloud Implementation](/images/Codey.webp)
 
 We offer end-to-end setup and implementation of core Service Cloud features, customized to fit your specific business workflows:
 

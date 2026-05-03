@@ -18,7 +18,7 @@ body.page-service {
 }
 </style>
 
-![Sales Cloud Services](/images/Appy.png)
+![Sales Cloud Services](/images/Appy.webp)
 
 # Salesforce Sales Cloud Implementation
 

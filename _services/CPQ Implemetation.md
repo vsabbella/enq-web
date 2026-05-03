@@ -18,7 +18,7 @@ body.page-service {
 }
 </style>
 
-![CPQ Implementation](/images/Appy.png)
+![CPQ Implementation](/images/Appy.webp)
 
 At Enqsys, we specialize in transforming your quoting and sales operations through robust CPQ (Configure, Price, Quote) implementations. We focus on aligning your technology with your specific business goals to drive efficiency and revenue growth.
 

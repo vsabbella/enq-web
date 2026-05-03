@@ -20,7 +20,7 @@ body.page-service {
 }
 </style>
 
-![Integrations](/images/Ruth.png)
+![Integrations](/images/Ruth.webp)
 
 Our expert team integrates your Salesforce organization with third-party ISVs and enterprise platforms to streamline operations and unify your data.
 

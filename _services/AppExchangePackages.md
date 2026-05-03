@@ -19,7 +19,7 @@ body.page-service {
 }
 </style>
 
-![AppExchange Package](/images/Astro.png)
+![AppExchange Package](/images/Astro.webp)
 
 
 At Enqsys, we partner with Independent Software Vendors (ISVs) to seamlessly package, publish, and distribute your innovative solutions on the Salesforce AppExchange platform. Navigating the AppExchange security review and packaging process can be complex, but our experienced team is here to guide you every step of the way.
