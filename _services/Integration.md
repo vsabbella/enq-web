@@ -1,26 +1,26 @@
 ---
 title: "Integrations"
-date: 2019-04-18T12:33:46+10:00
+date: 2018-11-28T15:15:34+10:00
 weight: 6
 ---
 
 <style>
-h1.title {
-  display: flex !important;
-  align-items: center;
+@import url('<https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap>');
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Flex', sans-serif !important;
 }
-h1.title::before {
-  content: "";
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  background-image: url('/images/Ruth.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 20px;
+body.page-service {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('/sales-dashboard-examples.webp') !important;
+}
+.content img {
+  float: right;
+  margin-left: 20px;
+  max-width: 150px; /* You can adjust this to make Ruth larger or smaller */
+  height: auto;
 }
 </style>
+
+![Integrations](/images/Ruth.png)
 
 Our expert team integrates your Salesforce organization with third-party ISVs and enterprise platforms to streamline operations and unify your data.
 
