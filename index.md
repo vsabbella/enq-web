@@ -1,5 +1,5 @@
 ---
-title: Enqsys Theme
+title: Enqsys
 layout: home
 description: Enqsys offers services to implement, extend and support Salesforce technology across your business.
 intro_image: "images/illustrations/hero-bkg.png"
